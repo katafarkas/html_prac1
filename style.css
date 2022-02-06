@@ -316,4 +316,13 @@ footer li.tw {
     height: 40px;
     background: url(images/burger.png) no-repeat 98% center;
   }
+
+  header nav ul {
+    height: 0;
+    overflow: hidden;
+  }
+
+  header nav ul.open {
+    height: auto;
+  }
 }
